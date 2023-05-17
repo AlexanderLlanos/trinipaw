@@ -76,6 +76,8 @@
   border-radius: 50px;
   transition: all 0.5s;
   background: #F9F4F0;
+  gap: 18px;
+  white-space: nowrap;
 }
 
 .buttom--secondary__icon {
@@ -83,8 +85,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
   border-radius: 50%;
   font-size: 20px;
   color: #507062;
