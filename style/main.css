@@ -585,3 +585,17 @@
   left: -13px;
   top: -6px;
 }
+
+/* Footer */
+.footer--img-dog {
+  background-image: url("../img/dog.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: 142px;
+  cursor: pointer;
+}
+
+.footer--img-dog:hover {
+  background-image: url("../img/dog-hover.svg");
+}
