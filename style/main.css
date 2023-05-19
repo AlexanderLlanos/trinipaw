@@ -136,9 +136,6 @@
 .buttom--small {
   background: #F9F4F0;
   border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 34px;
   color: #507062;
   font-weight: 600;
@@ -598,4 +595,31 @@
 
 .footer--img-dog:hover {
   background-image: url("../img/dog-hover.svg");
+}
+
+/* Cards */
+.card.card--primary {
+  border: 1px solid #507062;
+  border-radius: 5px;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.card.card--small {
+  padding: 19px;
+}
+
+.card .buttom--small {
+  height: 24px;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 25px rgba(37, 41, 39, 0.08);
+  transform: translate(0, -18px)
+}
+
+.card:hover button {
+  color: #F9F4F0;
+  background: #507062;
+  transition: 0.3s;
 }
