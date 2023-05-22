@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./fonts/fonts.css"></head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="mx-auto container px-[15px]">
+      <div class="flex items-center justify-between py-5">
+        <img src="./img/logo.svg" alt="">
+        <nav class="nav">
+          <ul>
+            <li>
+              <a class="option1" href="">Diseases</a>
+            </li>
+            <li>
+              <a class="option2" href="">Specialists</a>
+            </li>
+            <li>
+              <a class="option3" href="">Forum</a>
+            </li>
+            <li>
+              <a class="option4 active" href="">Blog</a>
+            </li>
+            <li>
+              <a class="option5" href="">About</a>
+            </li>
+            <li>
+              <a class="option6" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="flex items-center gap-[20px]">
+          <div class="search">
+            <span class="search--icons icon-search"></span>
+            <div class="search--body">
+              <input type="text" placeholder="Seach anything here..." name="" id="">
+              <span class="icon-close"></span>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown--header buttom--circle buttom--circle__border">
+              <span class="icon-insta"></span>
+            </button>
+            <div class="dropdown--body">
+              <ul class="p-10">
+                <li><a class="link link--secondary" href="">TEXT 1</a></li>
+                <li><a class="link link--secondary" href="">TEXT 2</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="mx-auto container px-[15px] pt-10">
+      <div class="flex items-center justify-between">
+        <h2 class="text-[#507062] text-[130px] text-rubick">BLOG</h2>
+        <div class="bg-[#F9F4F0] p-5 rounded-full flex items-center gap-2">
+          <div class="flex items-center gap-2">
+            <div class="radiobutton">
+              <input type="radio" id="f-option" name="selector">
+              <label for="f-option">All</label>
+              <div class="check"></div>
+            </div>
+            <div class="radiobutton">
+              <input type="radio" id="s-option" name="selector">
+              <label for="s-option">Cats</label>
+              <div class="check"><div class="inside"></div></div>
+            </div>
+            <div class="radiobutton">
+              <input type="radio" id="d-option" name="selector">
+              <label for="d-option">Dogs</label>
+              <div class="check"><div class="inside"></div></div>
+            </div>
+          </div>
+          <div class="select w-[250px]">
+            <select name="" id="">
+              <option value="">SELECT CATEGORY</option>
+              <option value="">Option 1</option>
+              <option value="">Option 2</option>
+              <option value="">Option 3</option>
+              <option value="">Option 4</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-6 lg:grid-cols-12 gap-8">
+        <div class="col-span-5 lg:col-span-6">
+          <div class="card card--primary">
+            <div class="h-[446px] relative">
+              <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+              <div class="tag absolute top-2 left-2">
+                <span>DOGS</span>
+              </div>
+            </div>
+            <div class="h-[124px]">
+              <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                My puppy is sleeping the whole day. What can be wrong? 
+              </h3>
+            </div>
+            <div class="flex items-start justify-between">
+              <div class="tag tag--secondary">
+                <span class="icon-eye"></span>
+                <span>18.8k views</span>
+              </div>
+              <button class="buttom--medium w-[65px]">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-6">
+          <div class="card card--primary">
+            <div class="h-[446px] relative">
+              <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+              <div class="tag absolute top-2 left-2">
+                <span>DOGS</span>
+              </div>
+            </div>
+            <div class="h-[124px]">
+              <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                My puppy is sleeping the whole day. What can be wrong? 
+              </h3>
+            </div>
+            <div class="flex items-start justify-between">
+              <div class="tag tag--secondary">
+                <span class="icon-eye"></span>
+                <span>18.8k views</span>
+              </div>
+              <button class="buttom--medium w-[65px]">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-span-5 lg:col-span-4">
+          <div class="card card--primary">
+            <div class="h-[246px] relative">
+              <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+              <div class="tag absolute top-2 left-2">
+                <span>DOGS</span>
+              </div>
+            </div>
+            <div class="h-[124px]">
+              <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                My puppy is sleeping the whole day. What can be wrong? 
+              </h3>
+            </div>
+            <div class="flex items-start justify-between">
+              <div class="tag tag--secondary">
+                <span class="icon-eye"></span>
+                <span>18.8k views</span>
+              </div>
+              <button class="buttom--medium w-[65px]">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-4">
+          <div class="card card--primary">
+            <div class="h-[246px] relative">
+              <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+              <div class="tag absolute top-2 left-2">
+                <span>DOGS</span>
+              </div>
+            </div>
+            <div class="h-[124px]">
+              <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                My puppy is sleeping the whole day. What can be wrong? 
+              </h3>
+            </div>
+            <div class="flex items-start justify-between">
+              <div class="tag tag--secondary">
+                <span class="icon-eye"></span>
+                <span>18.8k views</span>
+              </div>
+              <button class="buttom--medium w-[65px]">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-4">
+          <div class="card card--primary">
+            <div class="h-[246px] relative">
+              <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+              <div class="tag absolute top-2 left-2">
+                <span>DOGS</span>
+              </div>
+            </div>
+            <div class="h-[124px]">
+              <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                My puppy is sleeping the whole day. What can be wrong? 
+              </h3>
+            </div>
+            <div class="flex items-start justify-between">
+              <div class="tag tag--secondary">
+                <span class="icon-eye"></span>
+                <span>18.8k views</span>
+              </div>
+              <button class="buttom--medium w-[65px]">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-4">
+          <div class="card card--primary">
+            <div class="h-[246px] relative">
+              <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+              <div class="tag absolute top-2 left-2">
+                <span>DOGS</span>
+              </div>
+            </div>
+            <div class="h-[124px]">
+              <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                My puppy is sleeping the whole day. What can be wrong? 
+              </h3>
+            </div>
+            <div class="flex items-start justify-between">
+              <div class="tag tag--secondary">
+                <span class="icon-eye"></span>
+                <span>18.8k views</span>
+              </div>
+              <button class="buttom--medium w-[65px]">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-4">
+          <div class="card card--primary">
+            <div class="h-[246px] relative">
+              <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+              <div class="tag absolute top-2 left-2">
+                <span>DOGS</span>
+              </div>
+            </div>
+            <div class="h-[124px]">
+              <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                My puppy is sleeping the whole day. What can be wrong? 
+              </h3>
+            </div>
+            <div class="flex items-start justify-between">
+              <div class="tag tag--secondary">
+                <span class="icon-eye"></span>
+                <span>18.8k views</span>
+              </div>
+              <button class="buttom--medium w-[65px]">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-4">
+          <div class="card card--primary">
+            <div class="h-[246px] relative">
+              <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+              <div class="tag absolute top-2 left-2">
+                <span>DOGS</span>
+              </div>
+            </div>
+            <div class="h-[124px]">
+              <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                My puppy is sleeping the whole day. What can be wrong? 
+              </h3>
+            </div>
+            <div class="flex items-start justify-between">
+              <div class="tag tag--secondary">
+                <span class="icon-eye"></span>
+                <span>18.8k views</span>
+              </div>
+              <button class="buttom--medium w-[65px]">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-4">
+          <div class="card card--primary">
+            <div class="h-[246px] relative">
+              <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+              <div class="tag absolute top-2 left-2">
+                <span>DOGS</span>
+              </div>
+            </div>
+            <div class="h-[124px]">
+              <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                My puppy is sleeping the whole day. What can be wrong? 
+              </h3>
+            </div>
+            <div class="flex items-start justify-between">
+              <div class="tag tag--secondary">
+                <span class="icon-eye"></span>
+                <span>18.8k views</span>
+              </div>
+              <button class="buttom--medium w-[65px]">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-4">
+          <div class="card card--primary">
+            <div class="h-[246px] relative">
+              <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+              <div class="tag absolute top-2 left-2">
+                <span>DOGS</span>
+              </div>
+            </div>
+            <div class="h-[124px]">
+              <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                My puppy is sleeping the whole day. What can be wrong? 
+              </h3>
+            </div>
+            <div class="flex items-start justify-between">
+              <div class="tag tag--secondary">
+                <span class="icon-eye"></span>
+                <span>18.8k views</span>
+              </div>
+              <button class="buttom--medium w-[65px]">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-4">
+          <div class="card card--primary">
+            <div class="h-[246px] relative">
+              <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+              <div class="tag absolute top-2 left-2">
+                <span>DOGS</span>
+              </div>
+            </div>
+            <div class="h-[124px]">
+              <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                My puppy is sleeping the whole day. What can be wrong? 
+              </h3>
+            </div>
+            <div class="flex items-start justify-between">
+              <div class="tag tag--secondary">
+                <span class="icon-eye"></span>
+                <span>18.8k views</span>
+              </div>
+              <button class="buttom--medium w-[65px]">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-span-5 lg:col-span-12 items-center flex justify-center pb-20">
+          <button class="buttom--primary buttom--primary__color w-[180px]">
+            <span class="buttom--primary__text">Load more</span>
+            <span class="buttom--primary__icon">
+              <span class="icon-add"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto container px-[15px]">
+      <div class="border-y border-t-[#507062] border-b-[#507062] pt-[60px] pb-44">
+        <div class="flex items-start">
+          <div class="w-full">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">MORE RESOURCES</p>
+            <div class="max-w-[360px]">
+              <p class="text-[18px] text-[#507062]">Donec in viverra magna. Aenean posuere urna sem, eget mollis libero dapibus pretium. Suspendisse ac dapibus tortor.</p>
+            </div>
+          </div>
+          <div class="w-full">
+            <div class="border-b border-b-[#507062] flex items-center py-5 gap-12">
+              <img src="./img/thermometer.svg" alt="">
+              <p class="text-[#507062] text-[80px] text-rubick leading-none">DISIASES</p>
+            </div>
+            <div class="border-b border-b-[#507062] flex items-center py-5 gap-12">
+              <p class="text-[#507062] text-[80px] text-rubick leading-none pl-[105px]">SPECIALISTS</p>
+            </div>
+            <div class="flex items-center py-5 gap-12">
+              <p class="text-[#507062] text-[80px] text-rubick leading-none pl-[105px]">FORUMS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mx-auto container px-[15px]">
+      <div class="border-y border-t-[#507062] border-b-[#507062] py-[60px] relative">
+        <div class="flex gap-[180px]">
+          <div class="w-2/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">Quick links</p>
+            <ul>
+              <li>
+                <a class="link" href="">Diseases</a>
+              </li>
+              <li>
+                <a class="link" href="">Specialists</a>
+              </li>
+              <li>
+                <a class="link" href="">Blog</a>
+              </li>
+              <li>
+                <a class="link" href="">About</a>
+              </li>
+              <li>
+                <a class="link" href="">Mental Health</a>
+              </li>
+              <li>
+                <a class="link" href="">FAQ</a>
+              </li>
+              <li>
+                <a class="link" href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-4/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">Newsletter</p>
+            <p class="text-[#567060]">Get the latest topics, specialists, blogs and more into your inbox</p>
+            <div class="input input--icons mt-4">
+              <input placeholder="Enter Your email..." type="text">
+              <button class="input__icon">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+          <div class="w-6/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">FORUM</p>
+            <div class="flex">
+              <div class="w-full">
+                <p class="text-[#567060] text-[40px] uppercase leading-none pb-[30px]">Cats</p>
+                <ul>
+                  <li>
+                    <a class="link" href="">Nutrition</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Breeding</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Health</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Diseases</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Littering</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Pregnant cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Disabled cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Sleep</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Cat toys</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Food</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Griefing</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Orphaned Kittens</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Aggression</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full">
+                <p class="text-[#567060] text-[40px] uppercase leading-none pb-[30px]">Cats</p>
+                <ul>
+                  <li>
+                    <a class="link" href="">Nutrition</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Breeding</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Health</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Diseases</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Littering</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Pregnant cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Disabled cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Sleep</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Cat toys</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Food</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Griefing</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Orphaned Kittens</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Aggression</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="absolute bottom-[-34px] left-0">
+          <div class="footer--img-dog"></div>
+        </div>
+      </div>  
+      <div class="flex items-center justify-between py-[36px]">
+        <p class="text-[#567060] text-light">©2023 TriniPaws, All rights reserved</p>
+        <div class="flex items-center gap-5 text-[#567060] text-light">
+          <a href="">Cookies</a>
+          <span>/</span>
+          <a href="">Legal Notice</a>
+          <span>/</span>
+          <a href="">Terms & Conditions</a>
+          <span>/</span>
+          <a href="">Privacy Policy</a>
+        </div>
+        <p class="text-[#567060] text-light">Website by Buzzworthy</p>
+      </div>
+    </footer>
+
+    
+  </body>
