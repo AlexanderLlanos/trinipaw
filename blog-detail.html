@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./fonts/fonts.css"></head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="mx-auto container px-[15px]">
+      <div class="flex items-center justify-between py-5">
+        <img src="./img/logo.svg" alt="">
+        <nav class="nav">
+          <ul>
+            <li>
+              <a class="option1" href="">Diseases</a>
+            </li>
+            <li>
+              <a class="option2" href="">Specialists</a>
+            </li>
+            <li>
+              <a class="option3" href="">Forum</a>
+            </li>
+            <li>
+              <a class="option4 active" href="">Blog</a>
+            </li>
+            <li>
+              <a class="option5" href="">About</a>
+            </li>
+            <li>
+              <a class="option6" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="flex items-center gap-[20px]">
+          <div class="search">
+            <span class="search--icons icon-search"></span>
+            <div class="search--body">
+              <input type="text" placeholder="Seach anything here..." name="" id="">
+              <span class="icon-close"></span>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown--header buttom--circle buttom--circle__border">
+              <span class="icon-insta"></span>
+            </button>
+            <div class="dropdown--body">
+              <ul class="p-10">
+                <li><a class="link link--secondary" href="">TEXT 1</a></li>
+                <li><a class="link link--secondary" href="">TEXT 2</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="mx-auto container px-[15px] pt-10">
+      <div class="grid grid-cols-6 lg:grid-cols-12 gap-8">
+        <div class="col-span-5 lg:col-span-6">
+          <div>
+            <button class="buttom">
+              <span class="buttom__text">BACK TO BLOG</span>
+            </button>
+          </div>
+          <div class="pt-20">
+            <h2 class="text-[#507062] text-[60px] text-rubick uppercase leading-none">My puppy is sleeping the whole day. What can be wrong?</h2>
+            <div class="flex items-center gap-4 pt-5">
+              <div class="tag tag--secondary">
+                <span class="icon-eye"></span>
+                <span>16.4k views</span>
+              </div>
+              <p class="text-[#507062] text-sm">March 25, 2023</p>
+              <span class="w-[5px] h-[5px] bg-[#507062] rounded-full"></span>
+              <p class="text-[#507062] text-sm">By: <span class="font-bold">Jessica Brown</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-6">
+          <div>
+            <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+          </div>
+          <div class="py-8">
+            <p class="text-[#507062] text-[24px] pb-8">Proin tellus tortor, rutrum sed quam a, elementum commodo ante. Donec faucibus nibh mauris, ac tincidunt arcu venenatis ac. Aenean volutpat tellus justo, cursus venenatis lorem tempus sit amet. Cras metus nunc, tincidunt vel tempor sed, vulputate in diam. Fusce cursus metus a sodales feugiat.</p>
+            <p class="text-[#507062] text-[18px] pb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mi neque, fermentum ut suscipit non, <a class="text-[#F7B97C] underline" href="">porttitor et ante</a>. Integer sit amet bibendum ante, non tempus nunc. Integer ipsum lacus, porta quis dui non, ultricies interdum lacus. Vivamus at auctor urna, malesuada congue urna. Vivamus rutrum nunc ultricies nunc consectetur scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In eget massa id enim ultrices accumsan quis a dui. Aenean bibendum, odio sed <a class="text-[#F7B97C] underline" href="">tristique molestie</a>, eros est pulvinar mi, rhoncus suscipit purus orci id velit. Sed condimentum non neque interdum convallis. Aliquam cursus nunc sit amet commodo sollicitudin. Donec quis malesuada lectus. Fusce vulputate erat eu ex ornare, sed aliquet nisl faucibus. Donec vel venenatis ligula. Aliquam neque mi, egestas ac viverra vel, laoreet pharetra metus. Donec ac varius mi, ut dignissim.</p>
+            <div class="card card--primary w-full mb-8">
+              <div class="flex gap-5">
+                <div class="min-w-[210px] h-[150px]">
+                  <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+                </div>
+                <div class="flex flex-col items-start justify-between">
+                  <div class="tag">
+                    <span>DISEASES</span>
+                  </div>
+                  <div>
+                    <p class="text-[#507062] text-[20px] pb-5">Duis varius, augue vel dignissim tristique, augue odio sodales.</p>
+                    <button class="buttom--small w-[108px]">
+                      <span class="buttom--small__text">READ MORE</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="text-[#507062] text-[18px] pb-8">Vivamus at auctor urna, malesuada congue urna. Vivamus rutrum nunc ultricies nunc consectetur scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In eget massa id enim ultrices accumsan quis a dui. Aenean bibendum, odio sed tristique molestie, eros est pulvinar mi, rhoncus suscipit purus orci id velit. Sed condimentum non neque interdum convallis.</p>
+          </div>
+          <div class="pb-8">
+            <h3 class="text-[#507062] text-[40px] pb-8">H2 Title goes here</h3>    
+            <p class="text-[#507062] text-[18px] pb-8">Vivamus at auctor urna, malesuada congue urna. Vivamus rutrum nunc ultricies nunc consectetur scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In eget massa id enim ultrices accumsan quis a dui. Aenean bibendum, odio sed tristique molestie, eros est pulvinar mi, rhoncus suscipit purus orci id velit. Sed condimentum non neque interdum convallis.</p>
+            <div class="pb-8">
+              <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+            </div>
+            <p class="text-[#507062] text-[18px] pb-8">Vivamus rutrum nunc ultricies nunc consectetur scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In eget massa id enim ultrices accumsan quis a dui. Aenean bibendum, odio sed tristique molestie, eros est pulvinar mi, rhoncus suscipit purus orci id velit.</p>
+            <h4 class="text-[#507062] text-[28px] pb-6">H3 Title goes here</h4>
+            <p class="text-[#507062] text-[18px] pb-8">Aenean bibendum, odio sed tristique molestie, eros est pulvinar mi, rhoncus suscipit purus orci id velit.</p>
+            <div>
+              <ul>
+                <li class="text-[18px] flex items-center gap-4 text-[#507062]"><span class="text-[#F7B97C]">1.</span> <p>Accumsan mi id ipsum hendrerit.</p></li>
+                <li class="text-[18px] flex items-center gap-4 text-[#507062]"><span class="text-[#F7B97C]">2.</span> <p>Numero luctus ligula gravida.</p></li>
+                <li class="text-[18px] flex items-center gap-4 text-[#507062]"><span class="text-[#F7B97C]">3.</span> <p>Nam auctor non diam at congue.</p></li>
+                <li class="text-[18px] flex items-center gap-4 text-[#507062]"><span class="text-[#F7B97C]">4.</span> <p>Vivamus fermentum massa pellentesque</p></li>
+                <li class="text-[18px] flex items-center gap-4 text-[#507062]"><span class="text-[#F7B97C]">5.</span> <p>Mollis arcu vitae, lacinia nulla</p></li>
+              </ul>
+            </div>
+          </div>
+          <div class="pb-8">
+            <h3 class="text-[#507062] text-[40px] pb-6">H2 Title goes here</h3>
+            <p class="text-[#507062] text-[18px] pb-8">Aenean bibendum, odio sed tristique molestie, eros est pulvinar mi, rhoncus suscipit purus orci id velit.</p>
+            <div class="pb-8">
+              <ul>
+                <li class="text-[18px] flex items-center gap-4 text-[#507062]"><span class="h-[6px] w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Accumsan mi id ipsum hendrerit.</p></li>
+                <li class="text-[18px] flex items-center gap-4 text-[#507062]"><span class="h-[6px] w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Numero luctus ligula gravida.</p></li>
+                <li class="text-[18px] flex items-center gap-4 text-[#507062]"><span class="h-[6px] w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Nam auctor non diam at congue.</p></li>
+                <li class="text-[18px] flex items-center gap-4 text-[#507062]"><span class="h-[6px] w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Vivamus fermentum massa pellentesque</p></li>
+                <li class="text-[18px] flex items-center gap-4 text-[#507062]"><span class="h-[6px] w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Mollis arcu vitae, lacinia nulla</p></li>
+              </ul>
+            </div>
+            <h4 class="text-[#507062] text-[28px] pb-6">H3 Title goes here</h4>
+            <p class="text-[#507062] text-[18px] pb-8">Praesent fringilla lectus sagittis volutpat cursus. Nulla imperdiet erat nisl, a finibus lacus vehicula at. Fusce ut mollis erat. Nullam sed aliquam purus. Cras lorem enim, facilisis a maximus non, tristique id nunc. Sed ut consequat nisl. Donec ut augue a lectus venenatis vehicula.</p>
+            <div class="flex items-start pb-8 gap-10">
+              <div class="bg-[#F9F4F0] min-h-[80px] min-w-[80px] flex items-center justify-center rounded-full">
+                <span class="text-[40px] text-[#F7B97C] icon-quotes"></span>
+              </div>
+              <div>
+                <p class="text-[#507062] text-[28px] italic pb-5">Donec semper iaculis nibh, ultricies sollicitudin libero commodo nec. Phasellus a lobortis nibh. Mauris nibh massa, maximus vitae dolor pellentesque, fermentum placerat nibhul es solutiude.</p>
+                <p class="text-[#507062] text-[18px]">—  Jessica Douglas</p>
+              </div>
+            </div>
+            <p class="text-[#507062] text-[18px] pb-8">Praesent fringilla lectus sagittis volutpat cursus. Nulla imperdiet erat nisl, a finibus lacus vehicula at. Fusce ut mollis erat. Nullam sed aliquam purus. <a class="text-[#F7B97C] underline" href="">Cras lorem enim, facilisis a maximus non</a>, tristique id nunc. Sed ut consequat nisl. Donec ut augue a lectus venenatis vehicula. Donec semper iaculis nibh, ultricies sollicitudin libero commodo nec. Phasellus a lobortis nibh. Mauris nibh massa, maximus vitae dolor pellentesque, fermentum placerat nibh. Pellentesque viverra, purus et congue vestibulum, nulla leo varius libero, non placerat massa libero quis purus. Donec vitae aliquet tortor.</p>
+            <div class="card card--primary w-full mb-8">
+              <div class="flex justify-between gap-5">
+                <div>
+                  <p class="text-[#507062] text-[24px] text-rubick leading-none">My puppy is sleeping the whole day. What can be wrong?</p>
+                  <div class="flex items-center gap-4 pt-2">                  
+                    <p class="text-[#507062] text-sm">By: <span class="font-bold">DM-drew</span></p>
+                    <span class="w-[5px] h-[5px] bg-[#F7B97C] rounded-full"></span>
+                    <p class="text-[#507062] text-sm">March 25, 2023</p>
+                  </div>
+                  <div class="flex items-center pt-8 gap-4">
+                    <div class="tag tag--secondary">
+                      <span class="icon-chat"></span>
+                      <span>16 replies</span>
+                    </div>
+                    <div class="tag tag--secondary">
+                      <span class="icon-eye"></span>
+                      <span>10 Participants</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex flex-col items-end justify-between">
+                  <div class="tag">
+                    <span>FORUM</span>
+                  </div>
+                  <button class="buttom--medium w-[65px]">
+                    <span class="icon-arrow-right"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <p class="text-[#507062] text-[18px]">Sed ut consequat nisl. Donec ut augue a lectus venenatis vehicula. Donec semper iaculis nibh, ultricies sollicitudin libero commodo nec. Phasellus a lobortis nibh. Mauris nibh massa, maximus vitae dolor pellentesque, fermentum placerat nibh. Pellentesque viverra, purus et congue vestibulum, nulla leo varius libero, non placerat massa libero quis purus. Donec vitae aliquet tortor.</p>
+          </div>
+          <div class="border-t border-t-[#507062]">
+            <div class="flex justify-between items-center py-10">
+              <ul class="flex items-center gap-3">
+                <li>
+                  <a class="h-[60px] w-[60px] bg-[#F9F4F0] flex items-center justify-center rounded-full" href="">
+                    <span class="text-xl text-[#507062] icon-fb"></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="h-[60px] w-[60px] bg-[#F9F4F0] flex items-center justify-center rounded-full" href="">
+                    <span class="text-xl text-[#507062] icon-in"></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="h-[60px] w-[60px] bg-[#F9F4F0] flex items-center justify-center rounded-full" href="">
+                    <span class="text-xl text-[#507062] icon-tw"></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="h-[60px] w-[60px] bg-[#F9F4F0] flex items-center justify-center rounded-full" href="">
+                    <span class="text-xl text-[#507062] icon-insta"></span>
+                  </a>
+                </li>
+              </ul>
+              <div class="flex items-start gap-5">
+                <div class="w-[60px] h-[60px]">
+                  <img class="rounded-md w-full h-full object-cover" src="./img/user-2.png" alt="">
+                </div>
+                <div>
+                  <p class="text-[#507062] font-bold">Jessica Brown</p>
+                  <p class="text-[#507062] text-sm">12 posts</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto container px-[15px]">
+      <div class="border-t border-t-[#507062] py-[60px]">
+        <h2 class="text-[#507062] text-[130px] leading-none text-rubick pb-10">MORE READING</h2>
+        <div class="grid grid-cols-6 lg:grid-cols-12 gap-8">
+          <div class="col-span-5 lg:col-span-4">
+            <div class="card card--primary">
+              <div class="h-[246px] relative">
+                <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+                <div class="tag absolute top-2 left-2">
+                  <span>DOGS</span>
+                </div>
+              </div>
+              <div class="h-[124px]">
+                <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                  My puppy is sleeping the whole day. What can be wrong? 
+                </h3>
+              </div>
+              <div class="flex items-start justify-between">
+                <div class="tag tag--secondary">
+                  <span class="icon-eye"></span>
+                  <span>18.8k views</span>
+                </div>
+                <button class="buttom--medium w-[65px]">
+                  <span class="icon-arrow-right"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-5 lg:col-span-4">
+            <div class="card card--primary">
+              <div class="h-[246px] relative">
+                <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+                <div class="tag absolute top-2 left-2">
+                  <span>DOGS</span>
+                </div>
+              </div>
+              <div class="h-[124px]">
+                <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                  My puppy is sleeping the whole day. What can be wrong? 
+                </h3>
+              </div>
+              <div class="flex items-start justify-between">
+                <div class="tag tag--secondary">
+                  <span class="icon-eye"></span>
+                  <span>18.8k views</span>
+                </div>
+                <button class="buttom--medium w-[65px]">
+                  <span class="icon-arrow-right"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-5 lg:col-span-4">
+            <div class="card card--primary">
+              <div class="h-[246px] relative">
+                <img class="rounded-md w-full h-full object-cover" src="./img/user-3.png" alt="">
+                <div class="tag absolute top-2 left-2">
+                  <span>DOGS</span>
+                </div>
+              </div>
+              <div class="h-[124px]">
+                <h3 class="text-[#507062] text-[24px] leading-none pt-5 font-normal text-rubick">
+                  My puppy is sleeping the whole day. What can be wrong? 
+                </h3>
+              </div>
+              <div class="flex items-start justify-between">
+                <div class="tag tag--secondary">
+                  <span class="icon-eye"></span>
+                  <span>18.8k views</span>
+                </div>
+                <button class="buttom--medium w-[65px]">
+                  <span class="icon-arrow-right"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mx-auto container px-[15px]">
+      <div class="border-y border-t-[#507062] border-b-[#507062] py-[60px] relative">
+        <div class="flex gap-[180px]">
+          <div class="w-2/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">Quick links</p>
+            <ul>
+              <li>
+                <a class="link" href="">Diseases</a>
+              </li>
+              <li>
+                <a class="link" href="">Specialists</a>
+              </li>
+              <li>
+                <a class="link" href="">Blog</a>
+              </li>
+              <li>
+                <a class="link" href="">About</a>
+              </li>
+              <li>
+                <a class="link" href="">Mental Health</a>
+              </li>
+              <li>
+                <a class="link" href="">FAQ</a>
+              </li>
+              <li>
+                <a class="link" href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-4/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">Newsletter</p>
+            <p class="text-[#567060]">Get the latest topics, specialists, blogs and more into your inbox</p>
+            <div class="input input--icons mt-4">
+              <input placeholder="Enter Your email..." type="text">
+              <button class="input__icon">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+          <div class="w-6/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">FORUM</p>
+            <div class="flex">
+              <div class="w-full">
+                <p class="text-[#567060] text-[40px] uppercase leading-none pb-[30px]">Cats</p>
+                <ul>
+                  <li>
+                    <a class="link" href="">Nutrition</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Breeding</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Health</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Diseases</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Littering</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Pregnant cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Disabled cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Sleep</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Cat toys</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Food</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Griefing</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Orphaned Kittens</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Aggression</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full">
+                <p class="text-[#567060] text-[40px] uppercase leading-none pb-[30px]">Cats</p>
+                <ul>
+                  <li>
+                    <a class="link" href="">Nutrition</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Breeding</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Health</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Diseases</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Littering</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Pregnant cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Disabled cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Sleep</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Cat toys</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Food</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Griefing</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Orphaned Kittens</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Aggression</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="absolute bottom-[-34px] left-0">
+          <div class="footer--img-dog"></div>
+        </div>
+      </div>  
+      <div class="flex items-center justify-between py-[36px]">
+        <p class="text-[#567060] text-light">©2023 TriniPaws, All rights reserved</p>
+        <div class="flex items-center gap-5 text-[#567060] text-light">
+          <a href="">Cookies</a>
+          <span>/</span>
+          <a href="">Legal Notice</a>
+          <span>/</span>
+          <a href="">Terms & Conditions</a>
+          <span>/</span>
+          <a href="">Privacy Policy</a>
+        </div>
+        <p class="text-[#567060] text-light">Website by Buzzworthy</p>
+      </div>
+    </footer>
+
+    
+  </body>
