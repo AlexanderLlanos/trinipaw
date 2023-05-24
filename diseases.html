@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./fonts/fonts.css"></head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="mx-auto container px-[15px]">
+      <div class="flex items-center justify-between py-5">
+        <img src="./img/logo.svg" alt="">
+        <nav class="nav">
+          <ul>
+            <li>
+              <a class="option1 active" href="">Diseases</a>
+            </li>
+            <li>
+              <a class="option2" href="">Specialists</a>
+            </li>
+            <li>
+              <a class="option3" href="">Forum</a>
+            </li>
+            <li>
+              <a class="option4" href="">Blog</a>
+            </li>
+            <li>
+              <a class="option5" href="">About</a>
+            </li>
+            <li>
+              <a class="option6" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="flex items-center gap-[20px]">
+          <div class="search">
+            <span class="search--icons icon-search"></span>
+            <div class="search--body">
+              <input type="text" placeholder="Seach anything here..." name="" id="">
+              <span class="icon-close"></span>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown--header buttom--circle buttom--circle__border">
+              <span class="icon-insta"></span>
+            </button>
+            <div class="dropdown--body">
+              <ul class="p-10">
+                <li><a class="link link--secondary" href="">TEXT 1</a></li>
+                <li><a class="link link--secondary" href="">TEXT 2</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="mx-auto container px-[15px] pt-10">
+      <div class="flex flex-col items-center justify-center">
+        <h2 class="text-[#507062] text-[130px] text-rubick">DISEASES</h2>
+        <div class="bg-[#F9F4F0] p-5 rounded-full flex items-center gap-2">
+          <div class="flex items-center gap-2">
+            <div class="radiobutton">
+              <input type="radio" id="f-option" name="selector">
+              <label for="f-option">ALL</label>
+              <div class="check"></div>
+            </div>
+            <div class="radiobutton">
+              <input type="radio" id="s-option" name="selector">
+              <label for="s-option">CATS</label>
+              <div class="check"><div class="inside"></div></div>
+            </div>
+            <div class="radiobutton">
+              <input type="radio" id="d-option" name="selector">
+              <label for="d-option">DOGS</label>
+              <div class="check"><div class="inside"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-6 lg:grid-cols-12 gap-16 pt-20">
+        <div class="col-span-5 lg:col-span-4">
+          <div class="bg-[#F9F4F0] rounded-md p-7">
+            <div class="input input--search w-full">
+              <input placeholder="Search by disease, keyword..." type="text">
+              <button>
+                <span class="input--search__icon icon-search"></span>  
+              </button>
+            </div>
+            <div class="pt-10 text-center">
+              <p class="uppercase text-[#507062] text-rubick font-semibold pb-5">Most common</p>
+              <div class="flex flex-wrap items-center justify-center gap-2">
+                <div class="tag tag--tertiary">
+                  <span>CATS</span>
+                </div>
+                <div class="tag tag--tertiary">
+                  <span>DOGS</span>
+                </div>
+                <div class="tag tag--tertiary">
+                  <span>HEART</span>
+                </div>
+                <div class="tag tag--tertiary">
+                  <span>CANCER</span>
+                </div>
+                <div class="tag tag--tertiary">
+                  <span>ANEMIA</span>
+                </div>
+                <div class="tag tag--tertiary">
+                  <span>DYSPLASIA</span>
+                </div>
+                <div class="tag tag--tertiary">
+                  <span>BRAIN</span>
+                </div>
+                <div class="tag tag--tertiary">
+                  <span>CATS</span>
+                </div>
+                <div class="tag tag--tertiary">
+                  <span>KIDNEY</span>
+                </div>
+                <div class="tag tag--tertiary">
+                  <span>BREATHING</span>
+                </div>
+                <div class="tag tag--tertiary">
+                  <span>STOMACH</span>
+                </div>
+                <div class="tag tag--tertiary">
+                  <span>COUGHING</span>
+                </div>
+                <div class="tag tag--tertiary">
+                  <span>LIVER</span>
+                </div>
+                <div class="tag tag--tertiary">
+                  <span>VIEW ALL ...</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-8">
+          <div class="pb-4">
+            <p class="text-[#507062] uppercase text-md"><span class="font-semibold">36</span> Results</p>
+          </div>
+          <div class="border-b border-b-[#507062]">
+            <div class="py-7 border-t border-t-[#507062]">
+              <div class="flex items-center pb-5 justify-start gap-2">
+                <h3 class="text-[#507062] text-[40px] text-rubick uppercase">Chronic Kidney Disease</h3>
+                <button class="buttom--medium w-[65px]">
+                  <span class="icon-arrow-right text-lg"></span>
+                </button>
+              </div>
+              <div class="flex items-start gap-2">
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">ANIMAL</p>
+                  <p class="text-[#507062] font-light">Primarily young cats</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Main Symptoms</p>
+                  <p class="text-[#507062] font-light">Excess urnination</p>
+                  <p class="text-[#507062] font-light">Excess thirst</p>
+                  <p class="text-[#507062] font-light">Diarrhea...</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Prognosis</p>
+                  <div class="flex items-center gap-1">
+                    <span class="text-[#507062] icon-heart"></span>
+                    <span class="text-[#507062] icon-heart"></span>
+                    <span class="text-[#507062] icon-heart opacity-20"></span>
+                    <span class="text-[#507062] icon-heart opacity-20"></span>
+                    <span class="text-[#507062] icon-heart opacity-20"></span>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Treatment cost</p>
+                  <div class="flex items-center gap-1">
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw opacity-20"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="py-7 border-t border-t-[#507062]">
+              <div class="flex items-center pb-5 justify-start gap-2">
+                <h3 class="text-[#507062] text-[40px] text-rubick uppercase">Urinary Obstruction</h3>
+                <button class="buttom--medium w-[65px]">
+                  <span class="icon-arrow-right text-lg"></span>
+                </button>
+              </div>
+              <div class="flex items-start gap-2">
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">ANIMAL</p>
+                  <p class="text-[#507062] font-light">Primarily young cats</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Main Symptoms</p>
+                  <p class="text-[#507062] font-light">Excess urnination</p>
+                  <p class="text-[#507062] font-light">Excess thirst</p>
+                  <p class="text-[#507062] font-light">Diarrhea...</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Prognosis</p>
+                  <div class="flex items-center gap-1">
+                    <span class="text-[#507062] icon-heart"></span>
+                    <span class="text-[#507062] icon-heart"></span>
+                    <span class="text-[#507062] icon-heart opacity-20"></span>
+                    <span class="text-[#507062] icon-heart opacity-20"></span>
+                    <span class="text-[#507062] icon-heart opacity-20"></span>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Treatment cost</p>
+                  <div class="flex items-center gap-1">
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw opacity-20"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="py-7 border-t border-t-[#507062]">
+              <div class="flex items-center pb-5 justify-start gap-2">
+                <h3 class="text-[#507062] text-[40px] text-rubick uppercase">Parvo Virus</h3>
+                <button class="buttom--medium w-[65px]">
+                  <span class="icon-arrow-right text-lg"></span>
+                </button>
+              </div>
+              <div class="flex items-start gap-2">
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">ANIMAL</p>
+                  <p class="text-[#507062] font-light">Primarily young cats</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Main Symptoms</p>
+                  <p class="text-[#507062] font-light">Excess urnination</p>
+                  <p class="text-[#507062] font-light">Excess thirst</p>
+                  <p class="text-[#507062] font-light">Diarrhea...</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Prognosis</p>
+                  <div class="flex items-center gap-1">
+                    <span class="text-[#507062] icon-heart"></span>
+                    <span class="text-[#507062] icon-heart"></span>
+                    <span class="text-[#507062] icon-heart"></span>
+                    <span class="text-[#507062] icon-heart"></span>
+                    <span class="text-[#507062] icon-heart"></span>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Treatment cost</p>
+                  <div class="flex items-center gap-1">
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw opacity-20"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="py-7 border-t border-t-[#507062]">
+              <div class="flex items-center pb-5 justify-start gap-2">
+                <h3 class="text-[#507062] text-[40px] text-rubick uppercase">Chronic Kidney Disease</h3>
+                <button class="buttom--medium w-[65px]">
+                  <span class="icon-arrow-right text-lg"></span>
+                </button>
+              </div>
+              <div class="flex items-start gap-2">
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">ANIMAL</p>
+                  <p class="text-[#507062] font-light">Primarily young cats</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Main Symptoms</p>
+                  <p class="text-[#507062] font-light">Excess urnination</p>
+                  <p class="text-[#507062] font-light">Excess thirst</p>
+                  <p class="text-[#507062] font-light">Diarrhea...</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Prognosis</p>
+                  <p class="text-[#507062] font-light">No cure</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Treatment cost</p>
+                  <div class="flex items-center gap-1">
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw opacity-20"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="py-7 border-t border-t-[#507062]">
+              <div class="flex items-center pb-5 justify-start gap-2">
+                <h3 class="text-[#507062] text-[40px] text-rubick uppercase">Urinary Obstruction</h3>
+                <button class="buttom--medium w-[65px]">
+                  <span class="icon-arrow-right text-lg"></span>
+                </button>
+              </div>
+              <div class="flex items-start gap-2">
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">ANIMAL</p>
+                  <p class="text-[#507062] font-light">Primarily young cats</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Main Symptoms</p>
+                  <p class="text-[#507062] font-light">Excess urnination</p>
+                  <p class="text-[#507062] font-light">Excess thirst</p>
+                  <p class="text-[#507062] font-light">Diarrhea...</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Prognosis</p>
+                  <p class="text-[#507062] font-light">Prognosis is always poor</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Treatment cost</p>
+                  <div class="flex items-center gap-1">
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw opacity-20"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="py-7 border-t border-t-[#507062]">
+              <div class="flex items-center pb-5 justify-start gap-2">
+                <h3 class="text-[#507062] text-[40px] text-rubick uppercase">Parvo Virus</h3>
+                <button class="buttom--medium w-[65px]">
+                  <span class="icon-arrow-right text-lg"></span>
+                </button>
+              </div>
+              <div class="flex items-start gap-2">
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">ANIMAL</p>
+                  <p class="text-[#507062] font-light">Primarily young cats</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Main Symptoms</p>
+                  <p class="text-[#507062] font-light">Excess urnination</p>
+                  <p class="text-[#507062] font-light">Excess thirst</p>
+                  <p class="text-[#507062] font-light">Diarrhea...</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Prognosis</p>
+                  <p class="text-[#507062] font-light">Guaranteed good when treatet early</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Treatment cost</p>
+                  <div class="flex items-center gap-1">
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw opacity-20"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="py-7 border-t border-t-[#507062]">
+              <div class="flex items-center pb-5 justify-start gap-2">
+                <h3 class="text-[#507062] text-[40px] text-rubick uppercase">Chronic Kidney Disease</h3>
+                <button class="buttom--medium w-[65px]">
+                  <span class="icon-arrow-right text-lg"></span>
+                </button>
+              </div>
+              <div class="flex items-start gap-2">
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">ANIMAL</p>
+                  <p class="text-[#507062] font-light">Primarily young cats</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Main Symptoms</p>
+                  <p class="text-[#507062] font-light">Excess urnination</p>
+                  <p class="text-[#507062] font-light">Excess thirst</p>
+                  <p class="text-[#507062] font-light">Diarrhea...</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Prognosis</p>
+                  <p class="text-[#507062] font-light">Guaranteed good when treatet early</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Treatment cost</p>
+                  <div class="flex items-center gap-1">
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw opacity-20"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="py-7 border-t border-t-[#507062]">
+              <div class="flex items-center pb-5 justify-start gap-2">
+                <h3 class="text-[#507062] text-[40px] text-rubick uppercase">Urinary Obstruction</h3>
+                <button class="buttom--medium w-[65px]">
+                  <span class="icon-arrow-right text-lg"></span>
+                </button>
+              </div>
+              <div class="flex items-start gap-2">
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">ANIMAL</p>
+                  <p class="text-[#507062] font-light">Primarily young cats</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Main Symptoms</p>
+                  <p class="text-[#507062] font-light">Excess urnination</p>
+                  <p class="text-[#507062] font-light">Excess thirst</p>
+                  <p class="text-[#507062] font-light">Diarrhea...</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Prognosis</p>
+                  <p class="text-[#507062] font-light">Guaranteed good when treatet early</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Treatment cost</p>
+                  <div class="flex items-center gap-1">
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw opacity-20"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="py-7 border-t border-t-[#507062]">
+              <div class="flex items-center pb-5 justify-start gap-2">
+                <h3 class="text-[#507062] text-[40px] text-rubick uppercase">Parvo Virus</h3>
+                <button class="buttom--medium w-[65px]">
+                  <span class="icon-arrow-right text-lg"></span>
+                </button>
+              </div>
+              <div class="flex items-start gap-2">
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">ANIMAL</p>
+                  <p class="text-[#507062] font-light">Primarily young cats</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Main Symptoms</p>
+                  <p class="text-[#507062] font-light">Excess urnination</p>
+                  <p class="text-[#507062] font-light">Excess thirst</p>
+                  <p class="text-[#507062] font-light">Diarrhea...</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Prognosis</p>
+                  <p class="text-[#507062] font-light">Guaranteed good when treatet early</p>
+                </div>
+                <div class="w-full">
+                  <p class="text-[#F7B97C] uppercase text-rubick font-medium pb-3">Treatment cost</p>
+                  <div class="flex items-center gap-1">
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw"></span>
+                    <span class="text-[#507062] icon-paw opacity-20"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pt-5 pb-16 pagination">
+            <button class="pagination--item"><span class="icon-arrow-right"></span></button>
+            <button class="pagination--item"><span>1</span></button>
+            <button class="pagination--item active"><span>2</span></button>
+            <button class="pagination--item"><span>3</span></button>
+            <button class="pagination--item"><span class="icon-arrow-right"></span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto container px-[15px]">
+      <div class="border-y border-t-[#507062] border-b-[#507062] py-20">
+        <div class="grid grid-cols-6 lg:grid-cols-12 gap-16">
+          <div class="col-span-5 lg:col-span-4">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">Specialists</p>
+          </div>
+          <div class="col-span-5 lg:col-span-8">
+            <h2 class="text-[#507062] text-[80px] uppercase text-rubick leading-none">FIND the most knowledgable <span class="text-[#F7B97C]">veterinarians</span></h2>
+            <div class="flex items-center pt-20 gap-5">
+              <div class="grid grid-cols-4 items-center gap-5">
+                <img class="w-full min-h-[120px] object-cover rounded-md" src="./img/user-2.png" alt="">
+                <img class="w-full min-h-[120px] object-cover rounded-md" src="./img/user-2.png" alt="">
+                <img class="w-full min-h-[120px] object-cover rounded-md" src="./img/user-2.png" alt="">
+                <img class="w-full min-h-[120px] object-cover rounded-md" src="./img/user-2.png" alt="">
+              </div>
+              <button class="buttom--primary buttom--primary__color buttom--primary__large min-w-[300px]">
+                <span class="buttom--primary__text">SPECIALISTS</span>
+                <span class="buttom--primary__icon">
+                  <span class="icon-arrow-right"></span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mx-auto container px-[15px]">
+      <div class="border-y border-t-[#507062] border-b-[#507062] py-[60px] relative">
+        <div class="flex gap-[180px]">
+          <div class="w-2/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">Quick links</p>
+            <ul>
+              <li>
+                <a class="link" href="">Diseases</a>
+              </li>
+              <li>
+                <a class="link" href="">Specialists</a>
+              </li>
+              <li>
+                <a class="link" href="">Blog</a>
+              </li>
+              <li>
+                <a class="link" href="">About</a>
+              </li>
+              <li>
+                <a class="link" href="">Mental Health</a>
+              </li>
+              <li>
+                <a class="link" href="">FAQ</a>
+              </li>
+              <li>
+                <a class="link" href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-4/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">Newsletter</p>
+            <p class="text-[#567060]">Get the latest topics, specialists, blogs and more into your inbox</p>
+            <div class="input input--icons mt-4">
+              <input placeholder="Enter Your email..." type="text">
+              <button class="input__icon">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+          <div class="w-6/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">FORUM</p>
+            <div class="flex">
+              <div class="w-full">
+                <p class="text-[#567060] text-[40px] uppercase leading-none pb-[30px]">Cats</p>
+                <ul>
+                  <li>
+                    <a class="link" href="">Nutrition</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Breeding</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Health</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Diseases</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Littering</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Pregnant cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Disabled cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Sleep</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Cat toys</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Food</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Griefing</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Orphaned Kittens</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Aggression</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full">
+                <p class="text-[#567060] text-[40px] uppercase leading-none pb-[30px]">Cats</p>
+                <ul>
+                  <li>
+                    <a class="link" href="">Nutrition</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Breeding</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Health</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Diseases</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Littering</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Pregnant cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Disabled cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Sleep</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Cat toys</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Food</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Griefing</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Orphaned Kittens</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Aggression</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="absolute bottom-[-34px] left-0">
+          <div class="footer--img-dog"></div>
+        </div>
+      </div>  
+      <div class="flex items-center justify-between py-[36px]">
+        <p class="text-[#567060] text-light">©2023 TriniPaws, All rights reserved</p>
+        <div class="flex items-center gap-5 text-[#567060] text-light">
+          <a href="">Cookies</a>
+          <span>/</span>
+          <a href="">Legal Notice</a>
+          <span>/</span>
+          <a href="">Terms & Conditions</a>
+          <span>/</span>
+          <a href="">Privacy Policy</a>
+        </div>
+        <p class="text-[#567060] text-light">Website by Buzzworthy</p>
+      </div>
+    </footer>
+
+    
+  </body>

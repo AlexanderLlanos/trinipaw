@@ -268,7 +268,6 @@
   font-weight: 300;
 }
 
-
 /* Select */
 .select {
   height: 50px;
@@ -668,10 +667,6 @@
   z-index: 9;
 }
 
-.tab-hover .tab-hover--item .tab-hover--tooltip {
-  
-}
-
 .tab-hover .tab-hover--item .tab-hover--tooltip::before {
   content:"\A";
   border-style: solid;
@@ -679,4 +674,24 @@
   border-color: transparent #F9F4F0 transparent transparent;
   position: absolute;
   left: -20px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination .pagination--item {
+  width: 60px;
+  height: 60px;
+  background: #F9F4F0;
+  border-radius: 5px;
+  color: #507062;
+  font-family: 'Rubik', sans-serif;
+}
+
+.pagination .pagination--item.active {
+  background: #F7B97C;
 }
