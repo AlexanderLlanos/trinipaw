@@ -420,12 +420,14 @@
   padding-right: 10px;
 }
 
+.link--secondary.active,
 .link--secondary:hover {
   text-decoration: none;
   padding-left: 10px;
   padding-right: 0;
 }
 
+.link--secondary.active::before,
 .link--secondary:hover::before {
   content: "";
   width: 6px;
@@ -694,4 +696,17 @@
 
 .pagination .pagination--item.active {
   background: #F7B97C;
+}
+
+/* Modal */
+.modal-overlay {
+  backdrop-filter: blur(6px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
