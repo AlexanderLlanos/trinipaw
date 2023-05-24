@@ -280,6 +280,15 @@
   color: #507062;
 }
 
+.select.select--large {
+  height: 60px;
+}
+
+.select.select--large select {
+  font-size: 18px;
+  font-weight: 400;
+}
+
 /* Radio button */
 .radiobutton {
   position: relative;

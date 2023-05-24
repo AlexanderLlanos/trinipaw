@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./fonts/fonts.css"></head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="absolute top-0 w-full">
+      <header class="mx-auto container px-[15px]">
+        <div class="flex items-center justify-between py-5">
+          <img src="./img/logo-white.svg" alt="">
+          <nav class="nav nav--white">
+            <ul>
+              <li>
+                <a class="option1" href="">Diseases</a>
+              </li>
+              <li>
+                <a class="option2" href="">Specialists</a>
+              </li>
+              <li>
+                <a class="option3" href="">Forum</a>
+              </li>
+              <li>
+                <a class="option4" href="">Blog</a>
+              </li>
+              <li>
+                <a class="option5" href="">About</a>
+              </li>
+              <li>
+                <a class="option6 active" href="">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="flex items-center gap-[20px]">
+            <div class="search">
+              <span class="search--icons icon-search"></span>
+              <div class="search--body">
+                <input type="text" placeholder="Seach anything here..." name="" id="">
+                <span class="icon-close"></span>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropdown--header buttom--circle buttom--circle__border">
+                <span class="icon-insta"></span>
+              </button>
+              <div class="dropdown--body">
+                <ul class="p-10">
+                  <li><a class="link link--secondary" href="">TEXT 1</a></li>
+                  <li><a class="link link--secondary" href="">TEXT 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <section class="bg-no-repeat bg-cover bg-[url('./img/banner-2.png')] h-[900px]">
+      <div class="container relative mx-auto px-[15px] h-[900px]">
+        <h2 class="text-center text-[#F9F4F0] pt-20 text-[300px] text-barlow font-light leading-none">CONTACT</h2>
+        <div class="absolute bottom-[60px] right-[100px]">
+          <p class="text-[#F9F4F0] text-[40px] mb-[32px]">HELLO@TRINIPAWS.COM</p>
+          <button class="buttom--secondary">
+            <span class="buttom--secondary__icon">
+              <span class="icon-arrow-down"></span>
+            </span>
+            <span class="buttom--secondary__text">USE OUR FORM</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-[15px] border-b border-b-[#507062]">
+      <div class="grid grid-cols-6 lg:grid-cols-12 gap-8 py-16">
+        <div class="col-span-5 lg:col-span-6">
+          <div class="h-full flex items-start flex-col justify-between">
+            <p class="text-[40px] text-[#507062] leading-none font-light w-10/12">If you have any questions feel free to use our <span class="text-[#F7B97C]">online form</span>. Our team will respond soon :)</p>
+            <img src="./img/cat.svg" alt="">
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-6">
+          <div class="h-full flex flex-col justify-between">
+            <div class="bg-[#F9F4F0] p-14 rounded-md">
+              <div class="flex flex-col gap-5">
+                <div class="input">
+                  <input placeholder="Full Name" type="text">
+                </div>
+                <div class="input">
+                  <input placeholder="Email" type="text">
+                </div>
+                <div class="select select--large w-full">
+                  <select name="" id="">
+                    <option value="">How can we help you?</option>
+                    <option value="">Option 1</option>
+                    <option value="">Option 2</option>
+                    <option value="">Option 3</option>
+                    <option value="">Option 4</option>
+                  </select>
+                </div>
+                <button class="buttom buttom--tertiary w-[205px]">
+                  <span class="buttom__text">SEND NOW</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-[15px]">
+      <div class="grid grid-cols-6 lg:grid-cols-12 gap-8 py-16">
+        <div class="col-span-5 lg:col-span-5">
+          <div class="flex items-start flex-col">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">JOIN OUR COMMUNITY</p>
+            <p class="text-md text-[#507062] w-8/12">Unlock all the premium content, get notifications, pellentesque consectetur aliquet justo et varius. Aliquam ac leo varius sem auctor tincidunt.</p>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-7">
+          <div class="flex items-start flex-col justify-between">
+            <div class="w-full">
+              <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">SUBSCRIPTION BENEFITS</p>
+              <div class="flex gap-6 w-full items-center pb-5">
+                <div class="w-full">
+                  <img class="w-full rounded-[5px]" src="./img/benefits.png" alt="">
+                  <p class="text-[#507062] text-[22px] mt-2 font-light">Rich Forums</p>
+                </div>
+                <div class="w-full">
+                  <img class="w-full rounded-[5px]" src="./img/benefits-2.png" alt="">
+                  <p class="text-[#507062] text-[22px] mt-2 font-light">Skilled Specialists</p>
+                </div>
+                <div class="w-full">
+                  <img class="w-full rounded-[5px]" src="./img/benefits-3.png" alt="">
+                  <p class="text-[#507062] text-[22px] mt-2 font-light">Diseases Support</p>
+                </div>
+              </div>
+            </div>
+            <div class="pt-36">
+              <p class="text-[#507062] text-[22px] leading-none font-light pb-5">...and much more</p>
+              <div>
+                <a class="link link--large" href="">
+                  <span class="link--large__text leading-none uppercase">Take a tour</span>
+                  <span class="link--large__icon">
+                    <span class="text-[30px] text-[#507062] icon-arrow-right"></span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mx-auto container px-[15px]">
+      <div class="border-y border-t-[#507062] border-b-[#507062] py-[60px] relative">
+        <div class="flex gap-[180px]">
+          <div class="w-2/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">Quick links</p>
+            <ul>
+              <li>
+                <a class="link" href="">Diseases</a>
+              </li>
+              <li>
+                <a class="link" href="">Specialists</a>
+              </li>
+              <li>
+                <a class="link" href="">Blog</a>
+              </li>
+              <li>
+                <a class="link" href="">About</a>
+              </li>
+              <li>
+                <a class="link" href="">Mental Health</a>
+              </li>
+              <li>
+                <a class="link" href="">FAQ</a>
+              </li>
+              <li>
+                <a class="link" href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-4/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">Newsletter</p>
+            <p class="text-[#567060]">Get the latest topics, specialists, blogs and more into your inbox</p>
+            <div class="input input--icons mt-4">
+              <input placeholder="Enter Your email..." type="text">
+              <button class="input__icon">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+          <div class="w-6/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">FORUM</p>
+            <div class="flex">
+              <div class="w-full">
+                <p class="text-[#567060] text-[40px] uppercase leading-none pb-[30px]">Cats</p>
+                <ul>
+                  <li>
+                    <a class="link" href="">Nutrition</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Breeding</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Health</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Diseases</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Littering</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Pregnant cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Disabled cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Sleep</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Cat toys</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Food</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Griefing</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Orphaned Kittens</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Aggression</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full">
+                <p class="text-[#567060] text-[40px] uppercase leading-none pb-[30px]">Cats</p>
+                <ul>
+                  <li>
+                    <a class="link" href="">Nutrition</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Breeding</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Health</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Diseases</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Littering</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Pregnant cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Disabled cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Sleep</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Cat toys</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Food</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Griefing</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Orphaned Kittens</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Aggression</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="absolute bottom-[-34px] left-0">
+          <div class="footer--img-dog"></div>
+        </div>
+      </div>  
+      <div class="flex items-center justify-between py-[36px]">
+        <p class="text-[#567060] text-light">©2023 TriniPaws, All rights reserved</p>
+        <div class="flex items-center gap-5 text-[#567060] text-light">
+          <a href="">Cookies</a>
+          <span>/</span>
+          <a href="">Legal Notice</a>
+          <span>/</span>
+          <a href="">Terms & Conditions</a>
+          <span>/</span>
+          <a href="">Privacy Policy</a>
+        </div>
+        <p class="text-[#567060] text-light">Website by Buzzworthy</p>
+      </div>
+    </footer>
+
+    
+  </body>
