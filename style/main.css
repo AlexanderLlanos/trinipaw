@@ -249,6 +249,26 @@
   color: #567060;
 }
 
+.input.input--area {
+  height: initial;
+  border-radius: 30px;
+  padding: 24px
+}
+
+.input.input--area textarea {
+  outline: none;
+  color: #567060;
+  background: transparent;
+  font-size: 18px;
+  width: 100%;
+}
+
+.input.input--area textarea::placeholder {
+  color: #567060;
+  font-weight: 300;
+}
+
+
 /* Select */
 .select {
   height: 50px;
