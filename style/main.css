@@ -41,6 +41,7 @@
   border-radius: 50px;
   transition: all 0.5s;
   background: white;
+  gap: 20px;
 }
 
 .buttom--primary__text {
@@ -623,4 +624,30 @@
   color: #F9F4F0;
   background: #507062;
   transition: 0.3s;
+}
+
+/* Tab hover */
+.tab-hover .tab-hover--item .tab-hover--bullet,
+.tab-hover .tab-hover--item .tab-hover--tooltip {
+  display: none;
+  transition: all 0.3s;
+}
+
+.tab-hover .tab-hover--item:hover .tab-hover--bullet,
+.tab-hover .tab-hover--item:hover .tab-hover--tooltip {
+  display: block;
+  z-index: 9;
+}
+
+.tab-hover .tab-hover--item .tab-hover--tooltip {
+  
+}
+
+.tab-hover .tab-hover--item .tab-hover--tooltip::before {
+  content:"\A";
+  border-style: solid;
+  border-width: 0 20px 20px 0;
+  border-color: transparent #F9F4F0 transparent transparent;
+  position: absolute;
+  left: -20px;
 }
