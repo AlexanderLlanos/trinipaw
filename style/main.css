@@ -41,6 +41,7 @@
   border-radius: 50px;
   transition: all 0.5s;
   background: white;
+  gap: 20px;
 }
 
 .buttom--primary__text {
@@ -248,6 +249,25 @@
   color: #567060;
 }
 
+.input.input--area {
+  height: initial;
+  border-radius: 30px;
+  padding: 24px
+}
+
+.input.input--area textarea {
+  outline: none;
+  color: #567060;
+  background: transparent;
+  font-size: 18px;
+  width: 100%;
+}
+
+.input.input--area textarea::placeholder {
+  color: #567060;
+  font-weight: 300;
+}
+
 /* Select */
 .select {
   height: 50px;
@@ -277,6 +297,15 @@
   font-size: 13px;
   pointer-events: none;
   color: #507062;
+}
+
+.select.select--large {
+  height: 60px;
+}
+
+.select.select--large select {
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /* Radio button */
@@ -623,4 +652,46 @@
   color: #F9F4F0;
   background: #507062;
   transition: 0.3s;
+}
+
+/* Tab hover */
+.tab-hover .tab-hover--item .tab-hover--bullet,
+.tab-hover .tab-hover--item .tab-hover--tooltip {
+  display: none;
+  transition: all 0.3s;
+}
+
+.tab-hover .tab-hover--item:hover .tab-hover--bullet,
+.tab-hover .tab-hover--item:hover .tab-hover--tooltip {
+  display: block;
+  z-index: 9;
+}
+
+.tab-hover .tab-hover--item .tab-hover--tooltip::before {
+  content:"\A";
+  border-style: solid;
+  border-width: 0 20px 20px 0;
+  border-color: transparent #F9F4F0 transparent transparent;
+  position: absolute;
+  left: -20px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination .pagination--item {
+  width: 60px;
+  height: 60px;
+  background: #F9F4F0;
+  border-radius: 5px;
+  color: #507062;
+  font-family: 'Rubik', sans-serif;
+}
+
+.pagination .pagination--item.active {
+  background: #F7B97C;
 }
