@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./fonts/fonts.css"></head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="mx-auto container px-[15px]">
+      <div class="flex items-center justify-between py-5">
+        <img src="./img/logo.svg" alt="">
+        <nav class="nav">
+          <ul>
+            <li>
+              <a class="option1 active" href="">Diseases</a>
+            </li>
+            <li>
+              <a class="option2" href="">Specialists</a>
+            </li>
+            <li>
+              <a class="option3" href="">Forum</a>
+            </li>
+            <li>
+              <a class="option4" href="">Blog</a>
+            </li>
+            <li>
+              <a class="option5" href="">About</a>
+            </li>
+            <li>
+              <a class="option6" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="flex items-center gap-[20px]">
+          <div class="search">
+            <span class="search--icons icon-search"></span>
+            <div class="search--body">
+              <input type="text" placeholder="Seach anything here..." name="" id="">
+              <span class="icon-close"></span>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown--header buttom--circle buttom--circle__border">
+              <span class="icon-insta"></span>
+            </button>
+            <div class="dropdown--body">
+              <ul class="p-10">
+                <li><a class="link link--secondary" href="">TEXT 1</a></li>
+                <li><a class="link link--secondary" href="">TEXT 2</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="mx-auto container px-[15px] pt-10">
+      <button class="buttom">
+        <span class="buttom__text">BACK TO DISEASES</span>
+      </button>
+      <div>
+        <h2 class="text-[#507062] text-[130px] text-rubick uppercase leading-none py-10">Chronic Kidney Disease</h2>
+        <div class="flex items-center justify-between pb-6">
+          <div class="flex items-center gap-5">
+            <p class="text-[#507062] text-sm text-rubick font-medium uppercase">Affecting: Primarily young cats</p>
+            <span class="h-[6px] w-[6px] rounded-full bg-[#F7B97C]"></span>
+            <div class="flex items-center gap-1">
+              <p class="text-[#507062] text-sm text-rubick font-medium uppercase">Prognosis:</p>
+              <div class="flex items-center gap-1">
+                <span class="text-[#507062] icon-heart"></span>
+                <span class="text-[#507062] icon-heart"></span>
+                <span class="text-[#507062] icon-heart opacity-20"></span>
+                <span class="text-[#507062] icon-heart opacity-20"></span>
+                <span class="text-[#507062] icon-heart opacity-20"></span>
+              </div>
+            </div>
+            <span class="h-[6px] w-[6px] rounded-full bg-[#F7B97C]"></span>
+            <div class="flex items-center gap-1">
+              <p class="text-[#507062] text-sm text-rubick font-medium uppercase">Prognosis:</p>
+              <div class="flex items-center gap-1">
+                <span class="text-[#507062] icon-paw"></span>
+                <span class="text-[#507062] icon-paw"></span>
+                <span class="text-[#507062] icon-paw opacity-20"></span>
+                <span class="text-[#507062] icon-paw opacity-20"></span>
+                <span class="text-[#507062] icon-paw opacity-20"></span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button class="buttom--secondary">
+              <span class="buttom--secondary__icon">
+                <span class="icon-email"></span>
+              </span>
+              <span class="buttom--secondary__text uppercase">Share via email</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="grid border-t border-t-[#507062] grid-cols-6 lg:grid-cols-12 gap-16 pt-10">
+        <div class="col-span-5 lg:col-span-4">
+          <div class="bg-[#F9F4F0] rounded-md p-14 sticky top-5">
+            <ul class="flex flex-col gap-6">
+              <li>
+                <a class="link link--secondary uppercase font-semibold active" href="">Introduction</a>
+              </li>
+              <li>
+                <a class="link link--secondary uppercase font-semibold" href="">Pathogenesis</a>
+              </li>
+              <li>
+                <a class="link link--secondary uppercase font-semibold" href="">Diagnosis</a>
+              </li>
+              <li>
+                <a class="link link--secondary uppercase font-semibold" href="">Treatment</a>
+              </li>
+              <li>
+                <a class="link link--secondary uppercase font-semibold" href="">Prevention</a>
+              </li>
+              <li>
+                <a class="link link--secondary uppercase font-semibold" href="">Outcomes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-8">
+          <div class="pb-20">
+            <div class="flex items-center gap-3 text-[60px] text-[#507062] uppercase text-rubick pb-10">
+              <span class="text-[#F7B97C]">1.</span>
+              <h2>Introduction</h2>
+            </div>
+            <div class="pl-[60px] pb-10">
+              <div>
+                <div class="flex items-start pb-7">
+                  <p class="min-w-[180px] text-[24px] text-[#507062] text-rubick">Causes</p>
+                  <p class="text-[20px] text-[#507062]">Congenital vascular anomaly connecting the portal blood system to the systemic circulation. This allows blood from the gastrointestinal tract to bypass the liver.</p>
+                </div>
+                <div class="flex items-start pb-7">
+                  <p class="min-w-[180px] text-[24px] text-[#507062] text-rubick">Signs</p>
+                  <ul>
+                    <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Variable and non-specific, can be intermittent.</p></li>
+                    <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Central nervous system - depression/hyperactivity, head pressing, pacing/circling, stupor, ataxia, blindess, seizures, coma, ptyalism.</p></li>
+                    <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Gastrointestinal - vomiting, diarrhea, anorexia.</p></li>
+                    <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Other - small or stunted, poor body condition score, polyuria/polydipsia, intolerance to sedatives and anesthetic drugs, urolithiasis.</p></li>
+                  </ul>
+                </div>
+                <div class="flex items-start pb-7">
+                  <p class="min-w-[180px] text-[24px] text-[#507062] text-rubick">Diagnosis</p>
+                  <p class="text-[20px] text-[#507062]">History, age, clinical signs, pre and postprandial bile acids, ultrasonography, intra-operative mesenteric portovenography, CT angiography, MRI angiography.</p>
+                </div>
+                <div class="flex items-start pb-7">
+                  <p class="min-w-[180px] text-[24px] text-[#507062] text-rubick">Treatment</p>
+                  <p class="text-[20px] text-[#507062]">Surgical attenutation of shunt (ligation, ameroid constrictor placement, cellophane banding). Medical management prior to surgery or, in long-term cases where surgery impossible/failed/declined by owners.</p>
+                </div>
+                <div class="flex items-start pb-7">
+                  <p class="min-w-[180px] text-[24px] text-[#507062] text-rubick">Prognosis</p>
+                  <p class="text-[20px] text-[#507062]">Good if surgery successful. Print off the owner factsheet on Congential portosystemic shunt Congenital portosystemic shunt to give to your client</p>
+                </div>
+              <div>
+              <div class="py-5">
+                <h3 class="uppercase text-[#507062] text-[40px] pb-5 text-rubick">Presenting signs</h3> 
+                <ul class="pl-[60px]">
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Often vague and non-specific.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Ptyalism.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Central nervous system - signs of hepatic encephalopath Hepatic encephalopathy:</p></li>
+                </ul>
+                <ul class="pl-[100px]">
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full border border-[#F7B97C]"></span> <p>Seizure.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full border border-[#F7B97C]"></span> <p>Ataxia.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full border border-[#F7B97C]"></span> <p>Depression.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full border border-[#F7B97C]"></span> <p>Blindness.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full border border-[#F7B97C]"></span> <p>Behavioral changes.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full border border-[#F7B97C]"></span> <p>Head pressing, circling, lethargy.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full border border-[#F7B97C]"></span> <p>Signs may be worse after high protein meal.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full border border-[#F7B97C]"></span> <p>Vomiting and diarrhea.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full border border-[#F7B97C]"></span> <p>Inappetence and weight loss.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full border border-[#F7B97C]"></span> <p>Polydipsia/polyuria - uncommon compared to dog.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full border border-[#F7B97C]"></span> <p>Copper colored irises.</p></li>
+                </ul>
+              </div>
+              <div class="py-5">
+                <h3 class="uppercase text-[#507062] text-[40px] pb-5 text-rubick">Acute presentation</h3> 
+                <ul class="pl-[60px]">
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Seizures/coma.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Urethral obstruction secondary to urate urolithiasis</p></li>
+                </ul>
+              </div>
+              <div class="py-5">
+                <h3 class="uppercase text-[#507062] text-[40px] pb-5 text-rubick">Breed/Species predisposition</h3> 
+                <ul class="pl-[60px]">
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Himalayan.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Persian, Persian longhair.</p></li>
+                  <li class="text-[20px] flex items-start gap-4 text-[#507062]"><span class="min-h-[6px] mt-3 min-w-[6px] rounded-full bg-[#F7B97C]"></span> <p>Siamese.</p></li>
+                </ul>
+              </div>
+              <div class="py-5">
+                <h3 class="uppercase text-[#507062] text-[40px] pb-5 text-rubick">Special risks</h3> 
+                <div class="pl-[60px]">
+                  <p class="text-[20px] text-[#507062]">Increased susceptibility to sedatives (particularly oral) and anesthetic agents <a class="underline" href="">Anesthesia: in liver insufficiency</a> due to failure of blood to pass through liver and thus failure to metabolize drugs. Administration of such drugs can trigger an episode of hepatic encephalopathy.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 text-[60px] text-[#507062] uppercase text-rubick pb-10">
+          <span class="text-[#F7B97C]">2.</span>
+          <h2>Pathogenesis</h2>
+        </div>
+        <div class="pl-[60px] pb-10">
+          <div class="flex items-center gap-4">
+            <span class="min-h-[16px] mt-3 min-w-[16px] rounded-full bg-[#507062] opacity-30"></span>
+            <span class="min-h-[16px] mt-3 min-w-[16px] rounded-full bg-[#507062] opacity-30"></span>
+            <span class="min-h-[16px] mt-3 min-w-[16px] rounded-full bg-[#507062] opacity-30"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto container px-[15px]">
+      <div class="border-t border-t-[#507062] py-20 relative">
+        <div class="grid grid-cols-6 lg:grid-cols-12 gap-16">
+          <div class="col-span-5 lg:col-span-3">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-10">GET MORE HELP</p>
+            <div>
+              <button class="buttom--primary buttom--primary__color min-w-[240px] mb-4">
+                <span class="buttom--primary__text">Visit disease forum</span>
+                <span class="buttom--primary__icon">
+                  <span class="icon-arrow-right"></span>
+                </span>
+              </button>
+              <button class="buttom--primary buttom--primary__color min-w-[240px]">
+                <span class="buttom--primary__text">Ask our experts</span>
+                <span class="buttom--primary__icon">
+                  <span class="icon-arrow-right"></span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="col-span-5 lg:col-span-6">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-10">Specialists who treat this</p>
+            <div class="flex items-start gap-5">
+              <div>
+                <div class="w-[125px] h-[125px] mb-2">
+                  <img class="rounded-md object-cover h-full w-full" src="./img/user-3.png" alt="">
+                </div>
+                <p class="text-center text-[#507062] text-barlow font-semibold">Dr. David R.</p>
+                <div class="flex flex-col items-center justify-center">
+                  <div class="flex items-center gap-1">
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                  </div>
+                  <p class="text-sm text-[#507062]">4.9 / 5</p>
+                </div>
+              </div>
+              <div>
+                <div class="w-[125px] h-[125px] mb-2">
+                  <img class="rounded-md object-cover h-full w-full" src="./img/user-3.png" alt="">
+                </div>
+                <p class="text-center text-[#507062] text-barlow font-semibold">Dr. David R.</p>
+                <div class="flex flex-col items-center justify-center">
+                  <div class="flex items-center gap-1">
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                  </div>
+                  <p class="text-sm text-[#507062]">4.9 / 5</p>
+                </div>
+              </div>
+              <div>
+                <div class="w-[125px] h-[125px] mb-2">
+                  <img class="rounded-md object-cover h-full w-full" src="./img/user-3.png" alt="">
+                </div>
+                <p class="text-center text-[#507062] text-barlow font-semibold">Dr. David R.</p>
+                <div class="flex flex-col items-center justify-center">
+                  <div class="flex items-center gap-1">
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                    <span class="text-sm text-[#F7B97C] icon-heart"></span>
+                  </div>
+                  <p class="text-sm text-[#507062]">4.9 / 5</p>
+                </div>
+              </div>
+              <div>
+                <button class="w-[125px] h-[125px] bg-[#F9F4F0] rounded-md flex items-center justify-center">
+                  <span class="text-[#507062] text-rubick text-sm">MORE...</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-5 lg:col-span-3">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-10">RELEVANT TAGS</p>
+            <div class="flex flex-wrap items-center justify-start gap-2">
+              <div class="tag tag--secondary">
+                <span>CATS</span>
+              </div>
+              <div class="tag tag--secondary">
+                <span>KIDNEY</span>
+              </div>
+              <div class="tag tag--secondary">
+                <span>THIRSTY</span>
+              </div>
+              <div class="tag tag--secondary">
+                <span>CANCER</span>
+              </div>
+              <div class="tag tag--secondary">
+                <span>ANEMIA</span>
+              </div>
+              <div class="tag tag--secondary">
+                <span>DIARRHEA</span>
+              </div>
+              <div class="tag tag--secondary">
+                <span>TIREDNESS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-overlay">
+          <div class="bg-white border border-[#507062] max-w-[450px] text-center rounded-md p-7 flex flex-col items-center gap-5">
+            <p class="text-[32px] text-[#507062] text-rubick leading-none">Get <span class="text-[#F7B97C]">Pro Tips</span> with membership</p>
+            <button class="buttom--primary buttom--primary__color">
+              <span class="buttom--primary__text">SUBSCRIBE NOW</span>
+              <span class="buttom--primary__icon">
+                <span class="icon-arrow-right"></span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mx-auto container px-[15px]">
+      <div class="border-y border-t-[#507062] border-b-[#507062] py-[60px] relative">
+        <div class="flex gap-[180px]">
+          <div class="w-2/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">Quick links</p>
+            <ul>
+              <li>
+                <a class="link" href="">Diseases</a>
+              </li>
+              <li>
+                <a class="link" href="">Specialists</a>
+              </li>
+              <li>
+                <a class="link" href="">Blog</a>
+              </li>
+              <li>
+                <a class="link" href="">About</a>
+              </li>
+              <li>
+                <a class="link" href="">Mental Health</a>
+              </li>
+              <li>
+                <a class="link" href="">FAQ</a>
+              </li>
+              <li>
+                <a class="link" href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-4/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">Newsletter</p>
+            <p class="text-[#567060]">Get the latest topics, specialists, blogs and more into your inbox</p>
+            <div class="input input--icons mt-4">
+              <input placeholder="Enter Your email..." type="text">
+              <button class="input__icon">
+                <span class="icon-arrow-right"></span>
+              </button>
+            </div>
+          </div>
+          <div class="w-6/12">
+            <p class="text-[#507062] text-rubick uppercase font-semibold pb-[56px]">FORUM</p>
+            <div class="flex">
+              <div class="w-full">
+                <p class="text-[#567060] text-[40px] uppercase leading-none pb-[30px]">Cats</p>
+                <ul>
+                  <li>
+                    <a class="link" href="">Nutrition</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Breeding</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Health</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Diseases</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Littering</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Pregnant cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Disabled cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Sleep</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Cat toys</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Food</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Griefing</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Orphaned Kittens</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Aggression</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full">
+                <p class="text-[#567060] text-[40px] uppercase leading-none pb-[30px]">Cats</p>
+                <ul>
+                  <li>
+                    <a class="link" href="">Nutrition</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Breeding</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Health</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Diseases</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Littering</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Pregnant cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Disabled cats</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Sleep</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Cat toys</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Food</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Griefing</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Orphaned Kittens</a>
+                  </li>
+                  <li>
+                    <a class="link" href="">Aggression</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="absolute bottom-[-34px] left-0">
+          <div class="footer--img-dog"></div>
+        </div>
+      </div>  
+      <div class="flex items-center justify-between py-[36px]">
+        <p class="text-[#567060] text-light">©2023 TriniPaws, All rights reserved</p>
+        <div class="flex items-center gap-5 text-[#567060] text-light">
+          <a href="">Cookies</a>
+          <span>/</span>
+          <a href="">Legal Notice</a>
+          <span>/</span>
+          <a href="">Terms & Conditions</a>
+          <span>/</span>
+          <a href="">Privacy Policy</a>
+        </div>
+        <p class="text-[#567060] text-light">Website by Buzzworthy</p>
+      </div>
+    </footer>
+
+    
+  </body>
